@@ -1,0 +1,78 @@
+body{
+  background-color: #F0FFF0;
+  font-family: 'Comic Sans MS';
+}
+h1{
+  background-color: #778899;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+article h2{
+  text-align: center;
+}
+
+.img-profile{
+  width: 50%;
+}
+
+.home{
+  margin-bottom: 120px;
+}
+
+main p{
+  margin-top: 0;
+}
+
+.about{
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+}
+
+li{
+  text-align: center;
+}
+
+/*groups and items*/
+
+.wrapper{
+  width: 100%;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.items{
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.item-double{
+  flex: 2;
+  margin-bottom: 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+
+/*groups and items for desktop*/
+
+@media all and (min-width: 800px){
+.wrapper{
+  margin: auto;
+  width: 80%;
+}
+.item{
+  padding: 0 10%;
+}
+.group{
+  flex-direction: row;
+}
+}
